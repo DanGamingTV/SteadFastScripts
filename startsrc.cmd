@@ -1,5 +1,5 @@
 @echo off
-REM This code is used to run SteadFast2 on source code (using the src folder).
+REM This code is used to run Foxel on source code (using the src folder).
 REM Set TIMEOUT to how many seconds you want in between when the server stops to when the next restart takes place
 set TIMEOUT=0
 cd /d %~dp0
