@@ -1,5 +1,5 @@
 @echo off
-REM This code is used to start a server running with a SteadFast2.phar
+REM This code is used to start a server running with a Foxel.phar
 TITLE PocketMine-MP server software for Minecraft: Pocket Edition
 cd /d %~dp0
 
@@ -10,11 +10,11 @@ if exist bin\php\php.exe (
 	set PHP_BINARY=php
 )
 
-if exist SteadFast2.phar (
-	set POCKETMINE_FILE=SteadFast2.phar
+if exist Foxel.phar (
+	set POCKETMINE_FILE=Foxel.phar
 ) else (
 	echo SteadFast2 not found
-	echo Downloads can be found at https://github.com/Hydreon/Steadfast2
+	echo Downloads can be found at https://github.com/FoxelTeam/Foxel/Releases
 	pause
 	exit 1
 )
